@@ -102,7 +102,7 @@ $.ajax({
               newImage.attr("data-animate",animateImage);
 
             // declare variable for New Column and Row and set attributes
-            var newColumn = $("<div class='col-xs-6'>");
+            var newColumn = $("<div class='col-xs-4'>");
             var newTag = $("<p>");
               newTag.text("Rating: " + rating);
               newColumn.prepend(newTag);
