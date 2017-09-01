@@ -1,0 +1,43 @@
+/*William Rainaud*/
+/*Rutgers Coding Bootcamp */
+/*Homework Assignment 6 - GifTastic*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+	font-family: 'Raleway', sans-serif;
+  	height: 100%;
+	background:url('../images/wjr_images-14.jpg') 0 0 no-repeat;
+	overflow-x:hidden;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Raleway', sans-serif;
+}
+.mainTitle{
+	font-size: 40px;
+	font-weight: 800; 
+}
+
+label{
+	font-size: 20px;
+	font-weight: 800;
+}
+
+#rapper-form{
+	margin-bottom: 10px;
+}
+
+.rapperBtn{
+	margin: 5px;
+}
+
+div.row{
+	margin-top: 10px;
+}
+
+.well{
+	border: 2px solid #666666;
+  	background-color: rgba(255,255,255,0.7);
+}
