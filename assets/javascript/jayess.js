@@ -47,7 +47,7 @@ function giphyGet(buttonClicked){
 
   var rapper = buttonClicked;
   var offset = Math.floor(Math.random() * 5);
-  var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=2eab242fa3254211aabafc419aa08207&q=" + rapper + "&limit=9&offset=" + offset + "&rating=R&lang=en";
+  var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=" + GIPHY_API_KEY + "&q=" + rapper + "&limit=9&offset=" + offset + "&rating=R&lang=en";
   var rating;
   var alt;
 

@@ -1,9 +1,9 @@
 # GifTastic
 A Front-End Giphy Clone for searching for your favorite Gifs!
 
-**Live Demo**: https://ridebytrain.herokuapp.com/
+**Live Demo**: https://lets-get-giftasticyl.herokuapp.com/
 
-<img src="assets/images/screenshot.png" alt="Ride-by-Train Screenshot" align="center" />
+<img src="assets/images/screenshot.png" alt="GifTastic Screenshot" align="center" />
 
 Table of Contents
 -------
@@ -35,14 +35,9 @@ Technologies
 - HTML5
 - CSS3
     - Bootstrap
-    - Bootswatch
-    - FontAwesome
 - Javascript
 - jQuery
-- Moment.js
 - AJAX
-- Database
-    - Firebase
 - APIs
     - Giphy API
 
@@ -82,9 +77,6 @@ e.g. `http://my-awesome-app.herokuapp.com` and
 `http://my-awesome-app.herokuapp.com/auth/google/callback` respectively.
 The same goes for other providers.
 <hr>
-
-
-
 
 Project Structure
 -------
