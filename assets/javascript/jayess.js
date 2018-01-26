@@ -57,6 +57,8 @@ $.ajax({
       })
 
 .done(function(response) {
+
+    $("#gifs-appear-here").empty();
      
     var giphyItem = response.data;
           
