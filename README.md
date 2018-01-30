@@ -28,6 +28,9 @@ git clone --depth=1 https://github.com/wrainaud/GifTastic.git myproject
 # Change directory
 cd myproject
 
+# Create your `Config.js` for your API Keys
+touch config.js
+
 ```
 Technologies
 -------
@@ -43,39 +46,12 @@ Technologies
 
 Obtaining API Keys
 -------
-<img src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/logo_OpenWeatherMap_orange.svg" width="200">
+<img src="https://cdn-images-1.medium.com/max/979/1*cHv3GloBXiaWQ1Y8TVW7Ew.png" width="200">
 
-- Visit <a href="https://openweathermap.org/api" target="_blank">Open Weather Map</a>
-- Sign up for an account <a href="http://home.openweathermap.org/users/sign_up" target="_blank"> Here </a>
-- Once you have your API Key, add this line to the `config.js` file: `OW_API_Key: '{API KEY GOES HERE}'`
-<hr>
-
-<img src="https://firebase.google.com/_static/f6e16de9fa/images/firebase/lockup.png" width="200">
-
-- Visit <a href="https://console.firebase.google.com" target="_blank">Firebase Console</a>
-- Click on the **Create Project** button
-- Enter *Project Name*, then click on **Create** button
-- Then click on *APIs & auth* in the sidebar and select *API* tab
-- Click on **Google+ API** under *Social APIs*, then click **Enable API**
-- Next, under *APIs & auth* in the sidebar click on *Credentials* tab
-- Click on **Create new Client ID** button
-- Select *Web Application* and click on **Configure Consent Screen**
-- Fill out the required fields then click on **Save**
-- In the *Create Client ID* modal dialog:
- - **Application Type**: Web Application
- - **Authorized Javascript origins**: http://localhost:3000
- - **Authorized redirect URI**: http://localhost:3000/auth/google/callback
-- Click on **Create Client ID** button
-- After the API's are hooked up, go back to <a href="https://console.firebase.google.com" target="_blank">Firebase Console</a>
-- Select the project you created and click the **Add Firebase to your web app** button
-- Copy and paste *var Config {...};* into `config.js` file
-
-**Note:** When you ready to deploy to production don't forget to
-add your new url to *Authorized Javascript origins* and *Authorized redirect URI*,
-e.g. `http://my-awesome-app.herokuapp.com` and
-
-`http://my-awesome-app.herokuapp.com/auth/google/callback` respectively.
-The same goes for other providers.
+- Visit <a href="https://developers.giphy.com/" target="_blank">Giphy Developers</a>
+- Sign up for an account <a href="https://giphy.com/join" target="_blank"> Here </a>
+- After you've logged in click the `Create an App` button and enter your App Name and Description into the fields provided. 
+- Once you have your API Key, add this line to the `config.js` file: `GIPHY_API_Key: '{API KEY GOES HERE}'`
 <hr>
 
 Project Structure
